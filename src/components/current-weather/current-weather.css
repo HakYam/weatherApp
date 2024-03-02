@@ -1,0 +1,53 @@
+.weather {
+    border-radius: 6px;
+    color: #fff;
+    box-shadow: 5px -2px 12px 2px rgb(0 0 0 /30%);
+    margin: 20px auto 0 auto;
+    padding: 0px 15px 15px 15px;
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(78, 95, 148) 70.2%);
+    margin-bottom: 20px;
+    /* Adjust based on your layout needs */
+}
+
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.city {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.weather-description {
+    text-transform: capitalize;
+    font-size: 20px;
+
+}
+
+.weather-icon {
+    width: 100px;
+
+}
+
+.bottom {
+    display: flex;
+        align-items: center;
+            justify-content: space-between;
+
+
+}
+
+.parameter-label {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 550px) {
+    .parameter-label {
+        font-size: 20px;
+    }
+}
